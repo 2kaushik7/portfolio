@@ -1,8 +1,30 @@
+import kaushik from '../images/kaushik-in.jpeg'
+import java from '../images/java.png'
+import spring from '../images/spring.svg'
+import k8s from '../images/k8s.svg'
+import docker from '../images/docker.svg'
+import git from '../images/git.svg'
+import github from '../images/github.svg'
+import jenkins from '../images/jenkins.svg'
+import maven from '../images/maven.svg'
+import bitbucket from '../images/bitbucket.svg'
+import terraform from '../images/terraform.svg'
+import ansible from '../images/ansible.svg'
+import tomcat from '../images/tomcat.svg'
+import mysql from '../images/mysql.svg'
+import oracle from '../images/oracle.svg'
+import ubuntu from '../images/ubuntu.svg'
+import react from '../images/react.svg'
+import nginx from '../images/nginx.svg'
+import linkedin from '../images/linkedin.svg'
+import fb from '../images/facebook.svg'
+
+
 function Body(){
     return (
         <div  id="about"  className="mainBody">
             <div className="imageBase">
-                <img src="/src/images/kaushik-in.jpeg" className="image" alt="alt image"/>
+                <img src={kaushik} className="image" alt="alt image"/>
             </div>
             <div className="about">
                 <div className="about-1">
@@ -24,67 +46,67 @@ function Body(){
             </div>
             <div id="skills" className="skills">
                 <div className="skill">
-                    <img className="skillImage" src="/src/images/java.png" alt="Java"/>
+                    <img className="skillImage" src={java} alt="Java"/>
                     <p>Java</p>
                 </div>
                 <div className="skill">
-                    <img className="skillImage" src="/src/images/spring.svg" alt="Java"/>
+                    <img className="skillImage" src={spring} alt="Java"/>
                     <p>Spring</p>
                 </div>
                 <div className="skill">
-                    <img className="skillImage" src="/src/images/k8s.svg" alt="Java"/>
+                    <img className="skillImage" src={k8s} alt="Java"/>
                     <p>Kubernetes</p>
                 </div>
                 <div className="skill">
-                    <img className="skillImage" src="/src/images/docker.svg" alt="Java"/>
+                    <img className="skillImage" src={docker} alt="Java"/>
                     <p>Docker</p>
                 </div>
                 <div className="skill">
-                    <img className="skillImage" src="/src/images/git.svg" alt="Java"/>
+                    <img className="skillImage" src={git} alt="Java"/>
                     <p>Git</p>
                 </div>
                 <div className="skill">
-                    <img className="skillImage" src="/src/images/jenkins.svg" alt="Java"/>
+                    <img className="skillImage" src={jenkins} alt="Java"/>
                     <p>Jenkins</p>
                 </div>
                 <div className="skill">
-                    <img className="skillImage" src="/src/images/maven.svg" alt="Java"/>
+                    <img className="skillImage" src={maven} alt="Java"/>
                     <p>Maven</p>
                 </div>
                 <div className="skill">
-                    <img className="skillImage" src="/src/images/bitbucket.svg" alt="Java"/>
+                    <img className="skillImage" src={bitbucket} alt="Java"/>
                     <p>Bitbucket</p>
                 </div>
                 <div className="skill">
-                    <img className="skillImage" src="/src/images/terraform.svg" alt="Java"/>
+                    <img className="skillImage" src={terraform} alt="Java"/>
                     <p>Terraform</p>
                 </div>
                 <div className="skill">
-                    <img className="skillImage" src="/src/images/ansible.svg" alt="Java"/>
+                    <img className="skillImage" src={ansible} alt="Java"/>
                     <p>Ansible</p>
                 </div>
                 <div className="skill">
-                    <img className="skillImage" src="/src/images/tomcat.svg" alt="Java"/>
+                    <img className="skillImage" src={tomcat} alt="Java"/>
                     <p>Tomcat</p>
                 </div>
                 <div className="skill">
-                    <img className="skillImage" src="/src/images/mysql.svg" alt="Java"/>
+                    <img className="skillImage" src={mysql} alt="Java"/>
                     <p>Mysql</p>
                 </div>
                 <div className="skill">
-                    <img className="skillImage" src="/src/images/oracle.svg" alt="Java"/>
+                    <img className="skillImage" src={oracle} alt="Java"/>
                     <p>Oracle</p>
                 </div>
                 <div className="skill">
-                    <img className="skillImage" src="/src/images/ubuntu.svg" alt="Java"/>
+                    <img className="skillImage" src={ubuntu} alt="Java"/>
                     <p>Ubuntu</p>
                 </div>
                 <div className="skill">
-                    <img className="skillImage" src="/src/images/react.svg" alt="Java"/>
+                    <img className="skillImage" src={react} alt="Java"/>
                     <p>React</p>
                 </div>
                 <div className="skill">
-                    <img className="skillImage" src="/src/images/nginx.svg" alt="Java"/>
+                    <img className="skillImage" src={nginx} alt="Java"/>
                     <p>Nginx</p>
                 </div>
             </div>
@@ -139,9 +161,9 @@ function Body(){
                 <p>Email: kavoyager@gmail.com</p>
                 <p>Mobile: +44-744-200-4155</p>
                 <div className="social">
-                    <a href="https://www.linkedin.com/in/sai-surineedi/" target="_blank" rel="noopener noreferrer"><img src="/src/images/linkedin.svg"/></a>
-                    <a href="https://github.com/2kaushik7" target="_blank" rel="noopener noreferrer"><img src="/src/images/github.svg"/></a>
-                    <a href="https://www.facebook.com/trinadh.kaushik/" target="_blank" rel="noopener noreferrer"><img src="/src/images/facebook.svg"/></a>
+                    <a href="https://www.linkedin.com/in/sai-surineedi/" target="_blank" rel="noopener noreferrer"><img src={linkedin}/></a>
+                    <a href="https://github.com/2kaushik7" target="_blank" rel="noopener noreferrer"><img src={github}/></a>
+                    <a href="https://www.facebook.com/trinadh.kaushik/" target="_blank" rel="noopener noreferrer"><img src={fb}/></a>
                 </div>
             </div>
         </div>
