@@ -1,0 +1,13 @@
+stages:
+  - deploy
+deploy:
+  stage: deploy
+  script:
+     - apt-get update
+     - apt-get install -y openssh-client
+     - npm install
+     - npm run build
+     - scp -o StrictHostKeyChecking=no -r dist/* $EC2_USERNAME@$EC2_HOST:/var/www/vite-react-app
+     - ssh -o StrictHostKeyChecking=no $EC2_USERNAME@$EC2_HOST "sudo systemctl restart nginx"
+  only:
+    - main
