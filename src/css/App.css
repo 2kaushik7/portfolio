@@ -169,6 +169,7 @@ html{
     height: auto;
     color: white;
     padding: 30px;
+    overflow: hidden;
 }
 .social{
     display: flex;
