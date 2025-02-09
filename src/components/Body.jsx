@@ -18,6 +18,7 @@ import react from '../images/react.svg'
 import nginx from '../images/nginx.svg'
 import linkedin from '../images/linkedin.svg'
 import fb from '../images/facebook.svg'
+import ckad from '/src/images/ckad.png'
 
 
 function Body(){
@@ -114,7 +115,7 @@ function Body(){
             <h1>Education</h1>
                 <p>2007-2011 | Bachelors of Technology in Electrical and Electronics Engineering; </p>
                 <p>Sept 2024 | Completed Certified Kubernetes Application Developer </p>
-                <img src="/src/images/ckad.png" alt="ckad"/>
+                <img src={ckad} alt="ckad"/>
             </div>
             <div id="projects" className="projects">
                 <h2>Projects</h2>
